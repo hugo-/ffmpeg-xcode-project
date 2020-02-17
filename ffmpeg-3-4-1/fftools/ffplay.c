@@ -3678,8 +3678,6 @@ int main(int argc, char **argv)
     init_dynload();
 
     av_log_set_flags(AV_LOG_SKIP_REPEATED);
-    argc = 1;
-    input_filename = argv[0];
     parse_loglevel(argc, argv, options);
 
     /* register all codecs, demux and protocols */
